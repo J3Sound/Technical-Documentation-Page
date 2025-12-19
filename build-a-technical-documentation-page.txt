@@ -1,0 +1,181 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piano Scales</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav id="navbar">
+      <header><h1 class="psh">Piano Scales</h1></header>
+      <ul class="nav-list">
+        <li class="nav-l"><a class="nav-link" href="#Major_Scale">Major Scale</a></li>
+        <li class="nav-l">
+          <a class="nav-link" href="#Natural_Minor_Scale"
+            >Natural Minor Scale</a>
+        </li>
+        <li class="nav-l">
+          <a class="nav-link" href="#Harmonic_Minor_Scale"
+            >Harmonic Minor Scale</a>
+        </li>
+        <li class="nav-l"><a class="nav-link" href="#melodic_minor_scale">Melodic Minor Scale</a></li>
+        <li class="nav-l"><a class="nav-link" href="#Modes">Modes</a></li>
+</nav>
+    <main id="main-doc">
+      <section class="main-section" id="Major_Scale">
+        <Header>
+         <h1>Major Scale</h1>
+        </header>
+        <p>A major scale is a series of 7 notes that has the following order of half steps and whole steps:</p>  
+        <ul>
+          <li> <code>W W h W W W h</li>
+          <p class="key">W = Whole Step</p>
+          <p class="key">h= Half Step</p>
+          </ul>
+        <p>Major scales are generally considered to sound "happy" in nature. This has to do with the diatonic chord sets within the major key. For example, the I chord of a major key is a major chord, so any cadence leading to the tonic of you key will leave your progression sounding happy.</p>
+        <p>Below are the notes & fingeringers for a C Major Scale:</p>
+        <p class="scale-notes">C D E F G A B (C)</p>
+        <p class="scale-fingerings"> RH: 1 - 2 - 3 - 1 - 2 - 3 - 4 - 5</p>
+        <p class="scale-fingerings"> LH: 5 - 4 - 3 - 2 - 1 - 3 - 2 - 1</p>
+          
+      </section>
+      <section class="main-section" id="Natural_Minor_Scale">
+        <header>
+          <h1>Natural Minor Scale</h1>
+        </header>   
+        <p>A minor scale is a series of 7 notes that has the following order of half steps and whole steps:</p>
+        <ul>
+          <li> <code>W h W W h W W</li>
+          <p class="key">W = Whole Step</p>
+          <p class="key">h= Half Step</p>
+          </ul>
+        <p> Minor scales are generally considered to sound "sad" in nature. This has to do with the diatonic chord sets within the minor key. For example, the i chord of a minor key is a minor chord, so any cadence leading to the tonic of you key will leave your progression sounding sad.</p>
+        <p>Below are the notes & fingeringers for an A Minor Scale:</p>
+        <p class="scale-notes">A B C D E F G (A)</p>
+        <p class="scale-fingerings"> RH: 1 - 2 - 3 - 1 - 2 - 3 - 4 - 5</p>
+        <p class="scale-fingerings"> LH: 5 - 4 - 3 - 2 - 1 - 3 - 2 - 1</p>
+      </section>
+      <section class="main-section" id="Harmonic_Minor_Scale"> 
+        <header>
+          <h1>Harmonic Minor Scale</h1>
+        </header>
+        <p>A harmonic minor scale is minor scale with a raised 7th scale degree:</p>
+          <ul>
+          <li> <code>W h W W h m3rd h</li>
+          <p class="key">W = Whole Step</p>
+          <p class="key">h= Half Step</p>
+          <p class="key">m3rd= Minor 3rd (3 half steps)</p>
+          </ul>
+          <p>Below are the notes & fingeringers for an A Harmonic Minor Scale:</p>
+        <p class="scale-notes">A B C D E F G# (A)</p>
+        <p class="scale-fingerings"> RH: 1 - 2 - 3 - 1 - 2 - 3 - 4 - 5</p>
+        <p class="scale-fingerings"> LH: 5 - 4 - 3 - 2 - 1 - 3 - 2 - 1</p>
+      </section>
+      <section class="main-section" id="melodic_minor_scale"> 
+        <header>
+        <h1>Melodic Minor Scale</h1>
+        </header>
+        <p>A melodic minor scale is a minor scale with a raised 6th & 7th scale degree. In classical music, it is taught to raise the 6th and 7th scale degrees when ascending and natural minor when descedning:</p>
+        <ul>
+          <li> <code>W h W W W W h</li>
+          <p class="key">W = Whole Step</p>
+          <p class="key">h= Half Step</p>
+          </ul>
+          <p>Below are the notes & fingeringers for an A Melodic Minor Scale:</p>
+        <p class="mm-scale-notes">A B C D E F# G# (A)</p>
+        <p class="scale-fingerings"> RH: 1 - 2 - 3 - 1 - 2 - 3 - 4 - 5</p>
+        <p class="scale-fingerings"> LH: 5 - 4 - 3 - 2 - 1 - 3 - 2 - 1</p>
+      </section >
+      <section class="main-section" id="Modes"> 
+        <header>
+         <h1>Modes</h1>
+        </header>
+        <p>A mode is a scale within a scale. For example, if we are in the key of C major, we are playing all the white keys from C to C for our tonic's major scale. If we start on D however and play all the white keys until we reach D again, you have now played the Dorian mode of C Major.</p>
+
+        <p>There are 7 different types of modes in a major key:</p>
+        <ul>
+          <li>I - Ionian</li>
+          <li>ii - Dorian</li>
+          <li>iii - Phrygian</li>
+          <li>IV - Lydian</li>
+          <li>V - Mixo-Lydian</li>
+          <li>vi - Aeolian</li>
+          <li>vii - Locrian</li>
+      </section>
+    </main>
+  </body>
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+@media only screen and (max-width: 768px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+* {
+  background-color: #dddfef;
+  font-family: Gill Sans, sans-serif;
+}
+#navbar {
+    position: fixed;
+    min-width: 200px;  
+    height: 100%;
+    border-right: solid;
+    border-color: #EFEDDD;
+}
+nav {
+  display: block;
+  left: 0;
+  }
+
+.main-section{
+  text-align: left;
+  min-width: 400px;
+  padding-left: 230;
+}
+h1 {
+  text-align: left;
+}
+.nav-list {
+  list-style-type: none;
+  padding: 0;
+}
+.psh {
+  padding-left: 10
+}
+.nav-l {
+  padding: 20 0 20 0;
+  border-top: solid;
+  border-color: #EFEDDD;
+  padding-left: 10
+}
+nav ul li:nth-child(5) {
+  border-bottom: solid;
+  border-color: #EFEDDD;
+}
+
+a { 
+  color: inherit; 
+  text-decoration: none;
+  } 
+
+.scale-notes {
+  padding-left: 33;
+  letter-spacing: 3px
+}
+.mm-scale-notes {
+  padding-left: 30;
+  letter-spacing: 2.25px;
+}
+.key {
+  font-size: 11px;
+}
+
+** end of styles.css **
+
